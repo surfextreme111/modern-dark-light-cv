@@ -1,5 +1,5 @@
 
-import { Certificate } from 'lucide-react';
+import { Award } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const certificates = [
@@ -42,7 +42,7 @@ export default function Certificates() {
           >
             <div className="p-6 bg-card border border-border rounded-lg hover-shadow-gold transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <Certificate className="h-6 w-6 text-gold-500" />
+                <Award className="h-6 w-6 text-gold-500" />
                 <h3 className="font-semibold text-lg">{cert.title}</h3>
               </div>
               <p className="text-muted-foreground text-sm mb-2">{cert.issuer} • {cert.date}</p>
