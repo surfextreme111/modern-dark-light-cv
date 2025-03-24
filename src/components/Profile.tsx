@@ -33,7 +33,7 @@ export default function Profile() {
         
         <div className="flex items-center space-x-2">
           <Phone className="h-4 w-4 text-gold-500" />
-          <span>+34 622 817 695</span>
+          <span>+34 622 837 695</span>
         </div>
         
         <div className="flex items-center space-x-2">
