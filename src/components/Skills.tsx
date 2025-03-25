@@ -3,15 +3,15 @@ import { Code, Database, Cpu, Server, Bot } from 'lucide-react';
 
 const languages = [
   { name: "C#", level: 85, icon: <Code className="h-5 w-5 text-gold-500" /> },
-  { name: "Java", level: 40, icon: <Cpu className="h-5 w-5 text-gold-500" /> },
-  { name: "Python", level: 55, icon: <Server className="h-5 w-5 text-gold-500" /> },
-  { name: "JavaScript | React", level: 60, icon: <Code className="h-5 w-5 text-gold-500" /> },
+  { name: "Java", level: 30, icon: <Cpu className="h-5 w-5 text-gold-500" /> },
+  { name: "Python", level: 35, icon: <Server className="h-5 w-5 text-gold-500" /> },
+  { name: "JavaScript | React", level: 51, icon: <Code className="h-5 w-5 text-gold-500" /> },
   { name: "SQL", level: 75, icon: <Database className="h-5 w-5 text-gold-500" /> }
 ];
 
 const developer = [
   { name: "Backend", level: 90, icon: <Server className="h-5 w-5 text-gold-500" /> },
-  { name: "Frontend", level: 69, icon: <Code className="h-5 w-5 text-gold-500" /> },
+  { name: "Frontend", level: 39, icon: <Code className="h-5 w-5 text-gold-500" /> },
   { name: "DBA", level: 80, icon: <Database className="h-5 w-5 text-gold-500" /> },
   { name: "IA USAGE", level: 40, icon: <Bot className="h-5 w-5 text-gold-500" /> },
 ];
