@@ -7,7 +7,7 @@ export default function Profile() {
       <div className="photo-border">
         <div className="h-48 w-48 rounded-tl-3xl rounded-br-3xl overflow-hidden relative z-10">
           <img
-            src="/lovable-uploads/cvfoto.png"
+            src="/lovable-uploads/cvfoto2.png"
             alt="Andreu Bustos"
             className="w-full h-full object-cover"
           />
@@ -55,10 +55,10 @@ export default function Profile() {
       <div className="space-y-3 mt-4 max-w-xs">
         <h2 className="text-xl font-bold text-gold-500">HOBBIES</h2>
         <ul className="space-y-1">
-          <li>- Cybersecurity (INCIBE)</li>
+          <li>- Cybersecurity -INCIBE-</li>
           <li>- Learning Blockchain | Web3</li>
           <li>- Gym | Surf</li>
-          <li>- Entrepreneur | Reading</li>
+          <li>- Entrepreneur | Reader</li>
           <li>- Developer .NET C#</li>
         </ul>
       </div>

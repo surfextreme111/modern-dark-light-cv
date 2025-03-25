@@ -65,9 +65,9 @@ const translations: Translations = {
     de: 'FÄHIGKEITEN',
   },
   'section.experience': {
-    en: 'EXPERIENCE',
-    es: 'EXPERIENCIA',
-    de: 'ERFAHRUNG',
+    en: 'PROFESSIONAL EXPERIENCE',
+    es: 'EXPERIENCIA PROFESIONAL',
+    de: 'ERFAHRUNG IM BERUF',
   },
 };
 

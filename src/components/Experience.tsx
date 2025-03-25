@@ -1,7 +1,8 @@
 
 import { Calendar } from "lucide-react";
+import { useLanguage } from '@/contexts/LanguageContext';
 
-const experiences = [
+const experience = [
   {
     period: "01/22 - 10/24",
     title: "Software engineer - Commuta Soluciones Tecnológicas S.L.",
@@ -9,32 +10,37 @@ const experiences = [
   },
   {
     period: "04/21 - 01/22",
-    title: "Software - Developer in CLEDEE, S.A.",
+    title: "Software - Developer in CLECEE, S.A.",
     description: "IT/Developer of Software, Valencia, Spain. Java programming | Bash scripting | technical support in the building."
   },
   {
     period: "03/21 - 04/21",
-    title: "Txuelas Solucio LGPD",
+    title: "Tutelas Soluçao LGPD",
     description: "Public Administration, Valencia, Spain. Subcontracted IT Technician | Experience with Linux, Windows, TCP/IP, and network admin."
   },
   {
     period: "02/21 - 03/21",
-    title: "Technical Support at Ivas Central Offices",
+    title: "Technical Support at Ivass Central Offices",
     description: "IT/Software development, city. Subcontracted IT Technician."
   }
 ];
 
 export default function Experience() {
+  const { t } = useLanguage();
+
   return (
-    <div className="space-y-6 opacity-0 animate-fade-up" style={{"--delay": "3"} as React.CSSProperties}>
+    <div id="experience" className="space-y-6 opacity-0 animate-fade-up" style={{"--delay": "3"} as React.CSSProperties}>
       <div className="flex items-center space-x-4">
-        <h2 className="text-2xl font-bold">PROFESSIONAL EXPERIENCE</h2>
+        <h2 className="text-2xl font-bold">{t('section.experience')}</h2>
         <div className="flex-1 decoration-gold"></div>
       </div>
-      
       <div className="space-y-6">
-        {experiences.map((exp, index) => (
-          <div key={index} className="timeline-item" style={{"--delay": index + 4} as React.CSSProperties}>
+        {experience.map((exp, index) => (
+          <div
+            key={index}
+            className="timeline-item"
+            style={{"--delay": index + 11} as React.CSSProperties}
+          >
             <div className="flex items-center space-x-2 mb-2">
               <Calendar className="h-4 w-4 text-gold-500" />
               <span className="text-gold-500 font-semibold">{exp.period}</span>
