@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\components"
   ],
-  "SelectedNode": "\\C:\\Users\\Surf-XTreaM\\Source\\Repos\\AndreuBustosCV",
+  "SelectedNode": "\\src\\components\\Profile.tsx",
   "PreviewInSolutionExplorer": false
 }
