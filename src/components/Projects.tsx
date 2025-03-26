@@ -6,22 +6,22 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "Personal portfolio website built with React, TypeScript and Tailwind CSS",
-    technologies: ["React", "TypeScript", "Tailwind"],
-    githubUrl: "#",
+    technologies: ["React", "TypeScript", "TailwindCSS"],
+    githubUrl: "https://github.com/surfextreme111/modern-dark-light-cv",
     liveUrl: "#"
   },
   {
-    title: "E-commerce Platform",
-    description: "Full-stack e-commerce application with product management and payment processing",
-    technologies: ["Next.js", "Node.js", "MongoDB"],
-    githubUrl: "#",
-    liveUrl: "#"
+    title: "PadelMatchApp",
+    description: "Multiplatform App for padel players to find partners and matches skills and historical data",
+    technologies: ["ASP.NET", "JavaScript.js", "C#", "PostgresSQL", "React Native"],
+    githubUrl: "https://github.com/surfextreme111/PadelMatchApp",
+    liveUrl: "https://padelmatch.my.canva.site/"
   },
   {
-    title: "Task Management App",
-    description: "Mobile-first web application for task and project management",
-    technologies: ["React Native", "Firebase", "Redux"],
-    githubUrl: "#",
+    title: "ConnectorRFacil (Private)",
+    description: "API REST for connectors and stakeholders to share data and information",
+    technologies: ["C#", "SQL", ".NET Core"],
+    githubUrl: "https://github.com/surfextreme111/",
     liveUrl: "#"
   }
 ];
