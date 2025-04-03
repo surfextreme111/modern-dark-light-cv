@@ -207,6 +207,11 @@ const translations: Translations = {
       en: 'IES LA ELIANA, Spain',
       es: 'IES LA ELIANA, España',
       de: 'IES LA ELIANA, Spanien',
+    },//edu.date
+    'education.date': {
+      en: '09/23 - Current',
+      es: '09/23 - Actual',
+      de: '09/23 - Aktuell',
     },
     'section.experience2': {
       en: 'Experience',

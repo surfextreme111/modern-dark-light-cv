@@ -3,7 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 const education = [
   {
-    period: "09/23 - Current",
+    periodKey: "education.date",
     titleKey: "education.softwareEngineer.title",
     descriptionKey: "education.softwareEngineer.description"
   },
@@ -43,7 +43,9 @@ export default function Education() {
           >
             <div className="flex items-center space-x-2 mb-2">
               <Calendar className="h-4 w-4 text-gold-500" />
-              <span className="text-gold-500 font-semibold">{edu.period}</span>
+              <span className="text-gold-500 font-semibold">
+                {edu.periodKey ? t(edu.periodKey) : edu.period}
+              </span>
             </div>
             <h3 className="font-semibold text-lg">{t(edu.titleKey)}</h3>
             <p className="text-sm text-muted-foreground mt-1">{t(edu.descriptionKey)}</p>

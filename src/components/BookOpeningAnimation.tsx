@@ -9,7 +9,7 @@ export default function BookOpeningAnimation() {
     const timer = setTimeout(() => {
       setAnimationComplete(true);
       document.body.classList.add('animation-completed');
-    }, 2500);
+    }, 1000);
     
     return () => clearTimeout(timer);
   }, []);
