@@ -13,9 +13,9 @@ const certificates = [
   {
     id: 'b2',
     title: "English B2 Cambridge Certification",
-    issuer: "Ángela Niño",
+    issuer: "Private Teacher",
     date: "2025",
-    description: "Private Teacher | Cambridge English: First (FCE) | B2",
+    description: "Learning for Cambridge English | B2",
   },
   {
     id: 'english-dev',

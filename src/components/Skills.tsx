@@ -13,7 +13,7 @@ const developer = [
   { name: "Backend", level: 90, icon: <Server className="h-5 w-5 text-gold-500" /> },
   { name: "Frontend", level: 39, icon: <Code className="h-5 w-5 text-gold-500" /> },
   { name: "DBA", level: 80, icon: <Database className="h-5 w-5 text-gold-500" /> },
-  { name: "IA USAGE", level: 40, icon: <Bot className="h-5 w-5 text-gold-500" /> },
+  { name: "IA", level: 40, icon: <Bot className="h-5 w-5 text-gold-500" /> },
 ];
 
 export default function Skills() {
@@ -32,7 +32,7 @@ export default function Skills() {
         <div className="space-y-6 p-6 bg-card border border-border rounded-lg hover-shadow-gold transition-all duration-300">
           <div className="flex items-center space-x-3">
             <Code className="h-6 w-6 text-gold-500" />
-            <h3 className="text-lg font-semibold">Programming Languages</h3>
+            <h3 className="text-lg font-semibold">{t('skill.languages')}</h3>
           </div>
           <div className="space-y-6">
             {languages.map((skill, index) => (
@@ -74,7 +74,7 @@ export default function Skills() {
         <div className="space-y-6 p-6 bg-card border border-border rounded-lg hover-shadow-gold transition-all duration-300">
           <div className="flex items-center space-x-3">
             <Cpu className="h-6 w-6 text-gold-500" />
-            <h3 className="text-lg font-semibold">Development Skills</h3>
+            <h3 className="text-lg font-semibold">{t('skill.languages')}</h3>
           </div>
           <div className="space-y-6">
             {developer.map((skill, index) => (
@@ -116,27 +116,27 @@ export default function Skills() {
       {/* Entrepreneur Section */}
       <div className="mt-8 p-6 bg-card border border-border rounded-lg hover-shadow-gold transition-all duration-300">
         <div className="flex items-center space-x-4 mb-6">
-          <h2 className="text-2xl font-bold">Entrepreneur</h2>
+          <h2 className="text-2xl font-bold uppercase">{t('skill.entrepreneur')}</h2>
           <div className="flex-1 decoration-gold"></div>
         </div>
         
         <div className="flex space-x-6 items-start">
           <div className="text-gold-500 text-5xl p-3 bg-gold-500/10 rounded-full">🏆</div>
           <div className="flex-1">
-            <h3 className="font-semibold text-lg mb-1">Founder Elite Padel Formation</h3>
-            <p className="text-muted-foreground text-sm mb-3">2022 - Present</p>
+            <h3 className="font-semibold text-lg mb-1">{t('skill.founderdata')}</h3>
+            <p className="text-muted-foreground text-sm mb-3">{t('skill.year')}</p>
             <ul className="space-y-2 text-sm">
               <li className="flex items-start">
                 <span className="text-gold-500 mr-2">•</span>
-                Online padel training platform with AI analysis
+                {t('skill.description1')}
               </li>
               <li className="flex items-start">
                 <span className="text-gold-500 mr-2">•</span>
-                Designed landing page and conversion-focused sales funnel
+                {t('skill.description2')}
               </li>
               <li className="flex items-start">
                 <span className="text-gold-500 mr-2">•</span>
-                Developed unique instructional system (UIS) for Qatar market
+                {t('skill.description3')}
               </li>
             </ul>
           </div>
