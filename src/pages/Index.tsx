@@ -58,7 +58,7 @@ const Index = () => {
       document.querySelectorAll('.reveal-on-scroll').forEach(element => {
         observer.observe(element);
       });
-    }, 2500); // Same time as book animation
+    }, 1000); // Same time as book animation
 
     return () => observer.disconnect();
   }, []);
