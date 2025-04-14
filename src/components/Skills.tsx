@@ -2,9 +2,9 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Code, Database, Cpu, Server, Bot } from 'lucide-react';
 
 const languages = [
-  { name: "C#", level: 85, icon: <Code className="h-5 w-5 text-gold-500" /> },
-  { name: "Java", level: 30, icon: <Cpu className="h-5 w-5 text-gold-500" /> },
-  { name: "Python", level: 35, icon: <Server className="h-5 w-5 text-gold-500" /> },
+  { name: "C# .Net", level: 85, icon: <Code className="h-5 w-5 text-gold-500" /> },
+  { name: "Java Springboot", level: 55, icon: <Cpu className="h-5 w-5 text-gold-500" /> },
+  { name: "Python | PHP", level: 55, icon: <Server className="h-5 w-5 text-gold-500" /> },
   { name: "JavaScript | React", level: 51, icon: <Code className="h-5 w-5 text-gold-500" /> },
   { name: "SQL", level: 75, icon: <Database className="h-5 w-5 text-gold-500" /> }
 ];
@@ -74,7 +74,7 @@ export default function Skills() {
         <div className="space-y-6 p-6 bg-card border border-border rounded-lg hover-shadow-gold transition-all duration-300">
           <div className="flex items-center space-x-3">
             <Cpu className="h-6 w-6 text-gold-500" />
-            <h3 className="text-lg font-semibold">{t('skill.languages')}</h3>
+            <h3 className="text-lg font-semibold">{t('skill.developmentskills')}</h3>
           </div>
           <div className="space-y-6">
             {developer.map((skill, index) => (
